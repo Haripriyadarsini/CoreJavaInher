@@ -1,0 +1,13 @@
+package org.all;
+import org.tamil.Tamil;
+import org.english.English;
+import org.telgu.Telugu;
+public class Languageclass extends Tamil{
+	public void allLanguage() {
+		System.out.println("All languages are Tamil,Telugu and English");	
+	}
+	public static void main(String[] args) {
+		Languageclass X = new Languageclass();
+		X.
+	}
+}

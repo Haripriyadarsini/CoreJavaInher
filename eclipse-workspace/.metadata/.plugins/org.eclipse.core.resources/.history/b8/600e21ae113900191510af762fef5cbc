@@ -1,0 +1,21 @@
+package org.lang;
+
+public class StateDetails {
+	
+public void northIndian() {
+		
+	}
+	public void southIndian() {
+		
+	}
+
+	public static void main(String[] args) {
+		StateDetails x= new StateDetails();
+		x.northIndian();
+		x.southIndian();
+		Languageinfo y=new Languageinfo();
+		
+
+	}
+
+}

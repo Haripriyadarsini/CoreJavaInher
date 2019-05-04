@@ -1,0 +1,14 @@
+package org.tamil;
+import  org.all;
+
+public class Tamil {
+	public void tamilLanguage() {
+		System.out.println("Tamil");
+		}
+		public static void main(String[] args) {
+			Tamil X = new Tamil();
+			X.tamilLanguage();
+			X.allLanguage();
+
+}
+}

@@ -1,0 +1,15 @@
+package org.telgu;
+
+import org.english.English;
+
+public class Telugu {
+	public void telgulanguage() {
+		System.out.println("Telugu");
+		
+	}
+	public static void main(String[] args) {
+		Telugu X = new Telugu();
+		X.telgulanguage();
+		X.englishlanguage();
+}
+}

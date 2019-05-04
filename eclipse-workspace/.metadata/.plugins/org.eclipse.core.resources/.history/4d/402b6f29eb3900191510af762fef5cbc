@@ -1,0 +1,29 @@
+package org.hierac;
+
+public class Animal {
+
+	public void Zoo() {
+		System.out.println("Lion,Tiger,Monkey");
+	}
+
+public class PetAnimal extends Animal {
+	
+	public void house() {
+		System.out.println("Cat,Dog,Hen");
+	}
+}
+
+public class Wildanimal extends Animal {
+	
+	public void Forest() {
+		System.out.println("Elephant,Zebra,Hippo");
+	}
+}
+
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

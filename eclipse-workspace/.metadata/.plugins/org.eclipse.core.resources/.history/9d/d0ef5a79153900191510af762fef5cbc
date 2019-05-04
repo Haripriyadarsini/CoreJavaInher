@@ -1,0 +1,19 @@
+package org.emp;
+
+public class Employee {
+	public void empName() {
+		System.out.println("Hari");
+	}
+
+	public static void main(String[] args) {
+		Employee x=new Employee();
+		x.empName();
+		Client y=new Client();
+		y.clientName();
+		Company z=new Company();
+		z.companyName();
+		Project l=new Project();
+		l.ProjectName();
+	}
+
+}

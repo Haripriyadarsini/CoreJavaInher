@@ -1,0 +1,34 @@
+package org.hierac;
+
+class BigAnimal {  // Parent class
+
+	public void Zoo() {
+		System.out.println("Lion,Tiger,Monkey");
+	}
+
+public class PetAnimal extends BigAnimal {   // Child class 1	
+	public void house() {
+		System.out.println("Cat,Dog,Hen");
+	}
+}
+
+public class Wildanimal extends BigAnimal {   // Child class 2
+	
+	public void Forest() {
+		System.out.println("Elephant,Zebra,Hippo");
+	}
+
+
+public class Animal
+{
+public void main(String[] args) {
+	PetAnimal x = new PetAnimal();
+	Wildanimal Y = new Wildanimal();
+	x.Zoo();
+	x.house();
+	Y.Forest();
+}
+
+	}
+}
+}

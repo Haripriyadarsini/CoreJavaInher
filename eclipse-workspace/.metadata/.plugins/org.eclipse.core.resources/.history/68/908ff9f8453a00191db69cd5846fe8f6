@@ -1,0 +1,14 @@
+package org.hierac;
+
+public class Wildanimal extends BigAnimal{
+	
+	public void Forest() {
+		System.out.println("Elephant,Zebra,Hippo");
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

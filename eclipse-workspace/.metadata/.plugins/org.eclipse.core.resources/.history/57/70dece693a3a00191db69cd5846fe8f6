@@ -1,0 +1,15 @@
+package org.english;
+
+import org.tamil.Tamil;
+
+public class English extends Tamil{
+	public void englishLanguage() {
+		System.out.println("English");
+		}
+		public static void main(String[] args) {
+			English X = new English();
+			X.tamilLanguage();
+			X.englishLanguage();
+	}
+	
+}

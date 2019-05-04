@@ -1,0 +1,15 @@
+package org.lang;
+
+public class LanguageInfo {
+	
+	public void tamilLanguage() {
+		
+	}
+	public void englishLanguage() {
+		
+	}
+	public void hindiLanguage()
+	{
+		}
+
+}

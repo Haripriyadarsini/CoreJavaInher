@@ -1,0 +1,36 @@
+package org.all;
+import org.tamil.Tamil;
+import org.english.English;
+import org.telgu.Telugu;
+public class Languageclass {
+	
+	
+	public void allLanguage() {
+		System.out.println("All languages are Tamil,Telugu and English");
+		
+	}
+
+	public static void main(String[] args) {
+		Languageclass W = new Languageclass();
+		W.allLanguage();
+		}
+
+	public void tamilLanguage() {
+		Tamil X= new Tamil();
+		X.tamilLanguage();
+	}
+
+	public void englishLanguage() {
+		English Y = new English();
+		Y.englishLanguage();
+		
+		
+	}
+
+	public void telguLanguage() {
+Telugu Z = new Telugu();
+		Z.telguLanguage();
+	}
+	
+
+}
